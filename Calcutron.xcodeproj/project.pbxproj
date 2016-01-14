@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		B92AB2FC1C481E6D00F91FA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B92AB2FB1C481E6D00F91FA4 /* main.m */; };
 		B92AB2FF1C481E6D00F91FA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B92AB2FE1C481E6D00F91FA4 /* AppDelegate.m */; };
-		B92AB3021C481E6D00F91FA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92AB3011C481E6D00F91FA4 /* ViewController.m */; };
 		B92AB3051C481E6D00F91FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92AB3031C481E6D00F91FA4 /* Main.storyboard */; };
 		B92AB3071C481E6D00F91FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92AB3061C481E6D00F91FA4 /* Assets.xcassets */; };
 		B92AB30A1C481E6D00F91FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92AB3081C481E6D00F91FA4 /* LaunchScreen.storyboard */; };
+		B92AB3131C482C4300F91FA4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92AB3121C482C4300F91FA4 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		B92AB2FB1C481E6D00F91FA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B92AB2FD1C481E6D00F91FA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B92AB2FE1C481E6D00F91FA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B92AB3001C481E6D00F91FA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B92AB3011C481E6D00F91FA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B92AB3041C481E6D00F91FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B92AB3061C481E6D00F91FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B92AB3091C481E6D00F91FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B92AB30B1C481E6D00F91FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92AB3111C482C4300F91FA4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		B92AB3121C482C4300F91FA4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,9 @@
 		B92AB2F91C481E6D00F91FA4 /* Calcutron */ = {
 			isa = PBXGroup;
 			children = (
-				B92AB2FD1C481E6D00F91FA4 /* AppDelegate.h */,
-				B92AB2FE1C481E6D00F91FA4 /* AppDelegate.m */,
-				B92AB3001C481E6D00F91FA4 /* ViewController.h */,
-				B92AB3011C481E6D00F91FA4 /* ViewController.m */,
 				B92AB3031C481E6D00F91FA4 /* Main.storyboard */,
+				B92AB3111C482C4300F91FA4 /* RootViewController.h */,
+				B92AB3121C482C4300F91FA4 /* RootViewController.m */,
 				B92AB3061C481E6D00F91FA4 /* Assets.xcassets */,
 				B92AB3081C481E6D00F91FA4 /* LaunchScreen.storyboard */,
 				B92AB30B1C481E6D00F91FA4 /* Info.plist */,
@@ -74,6 +72,8 @@
 		B92AB2FA1C481E6D00F91FA4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B92AB2FD1C481E6D00F91FA4 /* AppDelegate.h */,
+				B92AB2FE1C481E6D00F91FA4 /* AppDelegate.m */,
 				B92AB2FB1C481E6D00F91FA4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -149,9 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B92AB3021C481E6D00F91FA4 /* ViewController.m in Sources */,
 				B92AB2FF1C481E6D00F91FA4 /* AppDelegate.m in Sources */,
 				B92AB2FC1C481E6D00F91FA4 /* main.m in Sources */,
+				B92AB3131C482C4300F91FA4 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

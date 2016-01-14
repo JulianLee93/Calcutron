@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  Calcutron
 //
 //  Created by Julian Lee on 1/14/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-
