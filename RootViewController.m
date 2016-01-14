@@ -19,6 +19,9 @@
 @implementation RootViewController
 
 - (IBAction)operandButtonTapped:(UIButton *)sender {
+    double opOne = [self.operandOne.text doubleValue];
+    double opTwo = [self.operandOne.text doubleValue];
+
     NSString *operation = self.operandLabel.text;
     if ([operation isEqualToString:@"+"])
          {
@@ -36,6 +39,7 @@
         {
     
         }
+
 }
 
 - (IBAction)backgroundButton:(UIButton *)sender {
