@@ -17,7 +17,25 @@
 @end
 
 @implementation RootViewController
+
 - (IBAction)operandButtonTapped:(UIButton *)sender {
+    NSString *operation = self.operandLabel.text;
+    if ([operation isEqualToString:@"+"])
+         {
+             
+         }
+    else if ([operation isEqualToString:@"-"])
+        {
+                  
+        }
+    else if ([operation isEqualToString:@"x"])
+        {
+            
+        }
+    else
+        {
+    
+        }
 }
 
 - (IBAction)backgroundButton:(UIButton *)sender {
